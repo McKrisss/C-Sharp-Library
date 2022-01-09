@@ -1,0 +1,13 @@
+D:\C# LIBRARY\FirstLibrary\bin\Debug\net5.0\FirstLibrary.deps.json
+D:\C# LIBRARY\FirstLibrary\bin\Debug\net5.0\FirstLibrary.dll
+D:\C# LIBRARY\FirstLibrary\bin\Debug\net5.0\ref\FirstLibrary.dll
+D:\C# LIBRARY\FirstLibrary\bin\Debug\net5.0\FirstLibrary.pdb
+D:\C# LIBRARY\FirstLibrary\obj\Debug\net5.0\FirstLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# LIBRARY\FirstLibrary\obj\Debug\net5.0\FirstLibrary.AssemblyInfoInputs.cache
+D:\C# LIBRARY\FirstLibrary\obj\Debug\net5.0\FirstLibrary.AssemblyInfo.cs
+D:\C# LIBRARY\FirstLibrary\obj\Debug\net5.0\FirstLibrary.csproj.CoreCompileInputs.cache
+D:\C# LIBRARY\FirstLibrary\obj\Debug\net5.0\FirstLibrary.dll
+D:\C# LIBRARY\FirstLibrary\obj\Debug\net5.0\ref\FirstLibrary.dll
+D:\C# LIBRARY\FirstLibrary\obj\Debug\net5.0\FirstLibrary.pdb
+D:\C# LIBRARY\FirstLibrary\obj\Debug\net5.0\FirstLibrary.csproj.AssemblyReference.cache
+D:\C# LIBRARY\FirstLibrary\bin\Debug\net5.0\FirstLibrary.xml

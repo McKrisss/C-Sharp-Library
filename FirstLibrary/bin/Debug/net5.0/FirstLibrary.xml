@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FirstLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:FirstLibrary.MySpeaker">
+            <summary>
+            Klasa do komunikacji z użytkownikiem
+            </summary>
+        </member>
+        <member name="M:FirstLibrary.MySpeaker.SayHello">
+            <summary>
+            Wypisuje "Hello!"
+            </summary>
+            <returns>VOID</returns>
+        </member>
+        <member name="M:FirstLibrary.MySpeaker.Say(System.String)">
+            <summary>
+            Wypisuje podany komunikat
+            </summary>
+            <param name="statement">Komunikat do wypisania</param>
+            <returns>VOID</returns>
+        </member>
+        <member name="M:FirstLibrary.MySpeaker.Say(System.String,System.Int32)">
+            <summary>
+            Wypisuje N-razy podany komunikat
+            </summary>
+            <param name="statement">Komunikat do wypisania</param>
+            <param name="count">Ilość powtórzeń</param>
+            <returns>VOID</returns>
+        </member>
+        <member name="M:FirstLibrary.MySpeaker.Read">
+            <summary>
+            Wczytuje linie podaną przez użytkownika
+            </summary>
+            <returns>String podany przez użytkownika</returns>
+        </member>
+        <member name="M:FirstLibrary.MySpeaker.Read(System.Int32)">
+            <summary>
+            Wczytuje N-razy linie podaną przez użytkownika
+            </summary>
+            <param name="count">Ilość linii do podania</param>
+            <returns>Tablica linii podanych przez użytkownika</returns>
+        </member>
+        <member name="M:FirstLibrary.MySpeaker.ReadWhileNot(System.String)">
+            <summary>
+            Wczytuje linie podane przez użytkownika, dopóki są różne od warunku
+            </summary>
+            <param name="condition">Linia, która kończy działanie funkcji</param>
+            <returns>Tablica linii podanych przez użytkownika</returns>
+        </member>
+        <member name="T:FirstLibrary.MyMath">
+            <summary>
+            Klasa zawierająca proste algorytmy matematyczne
+            </summary>
+        </member>
+        <member name="M:FirstLibrary.MyMath.NWD(System.Int32,System.Int32)">
+            <summary>
+            Algorytm Euklidesa na Największy Wspólny Dzielnik
+            </summary>
+            <param name="a">Pierwsza liczba</param>
+            <param name="b">Druga liczba</param>
+            <returns>Największy Wspólny Dzielnik dwóch liczb</returns>
+        </member>
+        <member name="M:FirstLibrary.MyMath.NWW(System.Int32,System.Int32)">
+            <summary>
+            Wyliczenie Największej Wspólnej Wielokrotności na podstawie NWD Euklidesa
+            </summary>
+            <param name="a">Pierwsza liczba</param>
+            <param name="b">Druga liczba</param>
+            <returns>Największa Wspólna Wielokrotnośc</returns>
+        </member>
+        <member name="M:FirstLibrary.MyMath.IsPrime(System.Int32)">
+            <summary>
+            Algorytm sprawdzający, czy liczba jest pierwsza
+            </summary>
+            <param name="number">Sprawdzana liczba</param>
+            <returns>Wartość True/False</returns>
+        </member>
+        <member name="M:FirstLibrary.MyMath.PrimeNumbers(System.Int32)">
+            <summary>
+            Algorytm wyliczania N kolejnych liczb pierwszych
+            </summary>
+            <param name="count">Ilość liczb pierwszych</param>
+            <returns>Tablica liczb pierwszych</returns>
+        </member>
+        <member name="M:FirstLibrary.MyMath.IndexOfMax(System.Int32[])">
+            <summary>
+            Algorytm liniowy, wyszukujący index wartości największej
+            </summary>
+            <param name="tab">Tablica, która jest sprawdzana</param>
+            <returns>Index pierwszego wystąpienia największej wartości</returns>
+        </member>
+        <member name="M:FirstLibrary.MyMath.IndexOfMin(System.Int32[])">
+            <summary>
+            Algorytm liniowy, wyszukujący index wartości najmniejszej
+            </summary>
+            <param name="tab">Tablica, która jest sprawdzana</param>
+            <returns>Index pierwszego wystąpienia najmniejszej wartości</returns>
+        </member>
+        <member name="M:FirstLibrary.MyMath.Fibonacci(System.Int32)">
+            <summary>
+            Algorytm wyliczania N liczb ciągu Fibonacciego
+            </summary>
+            <param name="count">Ilość liczb</param>
+            <returns>Tablica N liczb</returns>
+        </member>
+        <member name="M:FirstLibrary.MyMath.Fibonacci(System.Int32,System.Int32)">
+            <summary>
+            Algorytm wyliczania zakresu liczb ciągu Fibonacciego
+            </summary>
+            <param name="from">N-ta liczba ciągu</param>
+            <param name="to">N-ta liczba ciągu</param>
+            <returns>Tablica liczb</returns>
+        </member>
+        <member name="M:FirstLibrary.MyMath.Contain(System.Int32[],System.Int32)">
+            <summary>
+            Algorytm sprawdzania, czy w tablicy występuje dana wartość
+            </summary>
+            <param name="tab">Przeszukiwana tablica</param>
+            <param name="number">Wartość szukana</param>
+            <returns>Wartość True/False</returns>
+        </member>
+        <member name="M:FirstLibrary.MyMath.BubbleSort(System.Int32[])">
+            <summary>
+            Algorytm sortowania bąbelkowego (n2)
+            </summary>
+            <param name="tab">Sortowana tablica</param>
+            <returns>Tablica posortowana rosnąco</returns>
+        </member>
+        <member name="M:FirstLibrary.MyMath.SelectSort(System.Int32[])">
+            <summary>
+            Algorytm sortowania przez wybór (n2)
+            </summary>
+            <param name="tab">Sortowana tablica</param>
+            <returns>Tablica posortowana rosnąco</returns>
+        </member>
+        <member name="M:FirstLibrary.MyMath.ArraySum(System.Int32[])">
+            <summary>
+            Algorytm liczenia sumy wartości tablicy
+            </summary>
+            <param name="tab">Tablica wartości</param>
+            <returns>suma wartości tablicy</returns>
+        </member>
+        <member name="M:FirstLibrary.MyMath.Dividers(System.Int32)">
+            <summary>
+            Algorytm wyliczania dzielników liczby
+            </summary>
+            <param name="number">Liczba</param>
+            <returns>Tablica dzielników liczby</returns>
+        </member>
+        <member name="M:FirstLibrary.MyMath.BinarySearch(System.Int32[],System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Algorytm wyszukiwania binarnego (rekurencyjnie)
+            </summary>
+            <param name="tab">Tablica w której wyszukujemy</param>
+            <param name="number">Szukana wartość</param>
+            <param name="from">Index, od którego wyszukuje</param>
+            <param name="to">Index, do którego wyszukuje</param>
+            <returns>Index wartości/-1 gdy wartości nie ma w tablicy</returns>
+        </member>
+        <member name="M:FirstLibrary.MyMath.Swap(System.Int32[],System.Int32,System.Int32)">
+            <summary>
+            Zamiana wartości w tablicy
+            </summary>
+            <param name="tab">Tablica w której nastąpi zamiana</param>
+            <param name="a">Pierwszy index do zamiany</param>
+            <param name="b">Drugi index do zamiany</param>
+            <returns>Ta sama tablica z zamienionymi dwoma wartościami</returns>
+        </member>
+    </members>
+</doc>
